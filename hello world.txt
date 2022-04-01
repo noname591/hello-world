@@ -1,19 +1,3 @@
 1.Hello world
 2.this is branch 2
 
-string food;
-Console.WriteLine("We have ramen, spagehtti and salad. Which do you like?");
-food=ramen;
-Random random = new Random();
-int u = random.Next(0,3);
-switch(u){
-    case"ramen":
-    Console.WriteLine("it cost you NT 200");
-    break;
-    case"spaghetti":
-    Console.WriteLine("it cost you NT 150");
-    break;
-    case"salad":
-    Console.WriteLine("it cost you NT 100");
-    break;
-}
